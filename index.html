@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lokesh Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="#home">Lokesh.</a>
+
+    <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="menu-toggle" id="menuToggle" type="button" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">Portfolio</p>
+        <h1>Hi, I'm <span>Lokesh</span></h1>
+        <h2><span id="typedRole"></span></h2>
+        <p>
+          I build responsive, clean, and interactive web experiences using HTML,
+          CSS, JavaScript, and modern frontend practices. I enjoy turning ideas
+          into useful digital products with simple design and smooth user flow.
+        </p>
+
+        <div class="hero-actions">
+          <a class="primary-link" href="#projects">View Projects</a>
+          <a class="secondary-link" href="#contact">Contact Me</a>
+        </div>
+
+        <div class="social-row" aria-label="Social links">
+          <a href="https://github.com/LOKESH-0918" target="_blank" rel="noreferrer" aria-label="GitHub">GH</a>
+          <a href="https://www.linkedin.com/in/venkata-lokesh-chakamuri-611a922a9/" target="_blank" rel="noreferrer" aria-label="LinkedIn">IN</a>
+          <a href="mailto:venkatalokesh0918@gmail.com" aria-label="Email">EM</a>
+        </div>
+      </div>
+
+      <div class="hero-photo" aria-hidden="true">
+        <div class="photo-ring">
+          <div class="avatar">L</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-title">
+        <p class="eyebrow">About Me</p>
+        <h2>Focused on learning, building, and improving every project.</h2>
+      </div>
+
+      <div class="about-content">
+        <p>
+          I am a student developer interested in frontend development, responsive
+          layouts, JavaScript interactions, and practical web projects. My goal is
+          to create websites that look professional, work smoothly on all screens,
+          and solve real user needs.
+        </p>
+
+        <div class="stats-row">
+          <article>
+            <strong>04+</strong>
+            <span>Projects</span>
+          </article>
+          <article>
+            <strong>06+</strong>
+            <span>Skills</span>
+          </article>
+          <article>
+            <strong>100%</strong>
+            <span>Responsive</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-title center">
+        <p class="eyebrow">Skills</p>
+        <h2>Technologies I work with</h2>
+      </div>
+
+      <div class="skills-grid">
+        <article>
+          <span>HTML</span>
+          <div class="skill-bar"><i style="width: 92%;"></i></div>
+        </article>
+        <article>
+          <span>CSS</span>
+          <div class="skill-bar"><i style="width: 88%;"></i></div>
+        </article>
+        <article>
+          <span>JavaScript</span>
+          <div class="skill-bar"><i style="width: 78%;"></i></div>
+        </article>
+        <article>
+          <span>Responsive Design</span>
+          <div class="skill-bar"><i style="width: 84%;"></i></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-title center">
+        <p class="eyebrow">Projects</p>
+        <h2>Featured work</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <span>01</span>
+          <h3>Responsive Landing Page</h3>
+          <p>
+            A modern landing page with responsive layout, fixed navigation, clean
+            sections, and polished visual styling.
+          </p>
+          <a href="../task-01-responsive-landing-page/index.html">Open Project</a>
+        </article>
+
+        <article class="project-card">
+          <span>02</span>
+          <h3>Tic Tac Toe Game</h3>
+          <p>
+            An interactive browser game with JavaScript logic, turn handling,
+            winner detection, and replay support.
+          </p>
+          <a href="../task-03-tic-tac-toe/index.html">Open Project</a>
+        </article>
+
+        <article class="project-card">
+          <span>03</span>
+          <h3>Personal Portfolio</h3>
+          <p>
+            A professional portfolio website with smooth scrolling, animated role
+            text, skill highlights, project cards, and contact form.
+          </p>
+          <a href="#home">Open Project</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="section-title center">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's build something useful</h2>
+      </div>
+
+      <div class="contact-layout">
+        <div class="contact-details">
+          <article>
+            <span>Email</span>
+            <a href="mailto:venkatalokesh0918@gmail.com">venkatalokesh0918@gmail.com</a>
+          </article>
+          <article>
+            <span>Location</span>
+            <p>Andhra Pradesh, India</p>
+          </article>
+          <article>
+            <span>GitHub</span>
+            <a href="https://github.com/LOKESH-0918" target="_blank" rel="noreferrer">github.com/LOKESH-0918</a>
+          </article>
+          <article>
+            <span>LinkedIn</span>
+            <a href="https://www.linkedin.com/in/venkata-lokesh-chakamuri-611a922a9/" target="_blank" rel="noreferrer">linkedin.com/in/venkata-lokesh-chakamuri</a>
+          </article>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <input type="text" name="name" placeholder="Your name" required>
+          <input type="email" name="email" placeholder="Your email" required>
+          <textarea name="message" rows="6" placeholder="Your message" required></textarea>
+          <button class="primary-link" type="submit">Send Message</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright 2026 Lokesh. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
